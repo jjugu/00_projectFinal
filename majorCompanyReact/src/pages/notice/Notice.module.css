@@ -1,0 +1,29 @@
+.productDiv {
+  display: flex;
+  flex-wrap: wrap;
+  width: 850px;
+  height: 100%;
+  margin: 10px;
+}
+
+.pagingBtn{
+  margin: 5px;
+  border-radius: 25px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.pagingBtn:hover{
+  cursor: pointer;
+  background-color: burlywood;
+}
+
+.btn{
+  margin-left: 750px;
+  margin-top: 15px;
+  background: rgb(196, 233, 255);
+  cursor:pointer;
+  border:0px;
+  border-radius:10px;
+  font-size: 15px;
+}

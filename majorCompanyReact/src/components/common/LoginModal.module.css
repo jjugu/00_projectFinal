@@ -1,0 +1,85 @@
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.modalContainer{
+    height: 500px;
+    width: 800px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 10px;
+    flex-direction: row;  
+    word-break:normal;
+    font-family: 'pretendard';
+}
+
+.loginModalDiv{    
+    height: 500px;
+    width: 800px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 10px;
+    flex-direction: row;  
+    word-break:normal;
+    font-family: 'pretendard';  
+}
+
+.loginModalDiv input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 50px;
+    width: 300px;
+    border-radius: 25px;
+    text-indent: 10px;
+    word-break:normal;
+    font-family: 'pretendard';
+}
+
+.loginModalDiv button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 140px;
+    border-radius: 25px;
+    background-color: rgb(53, 122, 251);
+    font-weight: bold;
+    color: white;
+    border: none;
+    word-break:normal;
+    font-family: 'pretendard';
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    word-break:normal;
+    font-family: 'pretendard';
+}
+
+.buttonDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    word-break:normal;
+    font-family: 'pretendard';
+}

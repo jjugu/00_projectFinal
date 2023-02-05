@@ -1,0 +1,16 @@
+.title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width : 800px ;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.item{
+    font-size: 13px;
+}
+
+.name{
+    font-weight: 600;
+}

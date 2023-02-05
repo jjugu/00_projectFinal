@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "pretendard";
+    src: url(../../fonts/Pretendard/Pretendard-Regular.woff);
+}
+
+
+.bodyDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    height: 100%;
+    font-family: 'pretendard';
+}
+
+.buttonDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: 'pretendard';
+}
+.buttonDiv button {
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 25px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: normal;
+    font-family: 'pretendard';
+}
+
+.productTable{
+    width: 900px;
+    font-family: 'pretendard';
+}
+
+.productTable tr:hover { 
+    background-color: #F5F5F5; 
+    font-family: 'pretendard';
+}
+
+.productTable tr {
+    cursor: pointer;
+    font-family: 'pretendard';
+}
+
+.pagingBtn{
+    margin: 5px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+    font-family: 'pretendard';
+}
+
+.pagingBtn:hover{
+    cursor: pointer;
+    background-color: rgb(53,122,251);
+    font-family: 'pretendard';
+}

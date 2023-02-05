@@ -1,0 +1,112 @@
+
+@font-face {
+    font-family: "pretendard";
+    src: url(../../fonts/Pretendard/Pretendard-Regular.woff);
+}
+
+
+.backgroundDiv{
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /*수평 정렬*/
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: #E8E8E8;
+    font-family: 'pretendard';
+}
+
+.registerDiv{    
+    height: 500px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; /*수평 정렬*/
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'pretendard';
+    /* border: solid 1px white;
+    border-radius: 25px;     */
+}
+
+.registerDivheader{    
+    height: 65px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; /*수평 정렬*/
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+    padding: 0;
+    background-color: rgb(53,122,251);
+    color: #ffffff;
+    font-family: 'pretendard';
+
+}
+
+.registerDivtitle{    
+    height: 40px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; /*수평 정렬*/
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'pretendard';
+    color: gray;
+
+
+}
+
+
+
+.registerDiv input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 250px;
+    /* border-radius: 25px; */
+    text-indent: 10px;
+}
+
+.registerDiv button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 120px;
+    border-radius: 25px;
+    background-color: rgb(53,122,251);
+    font-weight: normal;
+    color: #ffffff;
+    font-family: 'pretendard';
+}
+
+.registerDivbutton2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 47px;
+    width: 170px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: normal;
+    color: rgb(53,122,251);
+    font-family: 'pretendard';
+}
+
+
+.memberPwMessage {
+    color: red;
+    width: 300px;
+    height: 20px;
+    font-size: small;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

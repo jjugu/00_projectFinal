@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "pretendard";
+  src: url(../../fonts/Pretendard/Pretendard-Regular.woff);
+}
+
+.backgroundDiv{
+  height: 100%;
+  display: flex;
+  flex-direction: column; /*수평 정렬*/
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #E8E8E8;
+  font-family: 'pretendard';
+}
+
+.profileDiv{    
+  margin-top: 20px;
+  height: 600px;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; /*수평 정렬*/
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  font-family: 'pretendard';
+}
+
+.profileTitle{    
+  height: 40px;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; /*수평 정렬*/
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: 'pretendard';
+  color: gray;
+}
+
+.profileheader{    
+  height: 65px;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; /*수평 정렬*/
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+  padding: 0;
+  background-color: rgb(53,122,251);
+  color: #ffffff;
+  font-family: 'pretendard';
+
+}
+
+.modifyDiv{    
+  height: 50px;
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  /* border: solid 1px black; */
+  border-radius: 25px;    
+  word-break:normal;
+  font-family: 'pretendard';
+}
+
+.profileDiv input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 30px;
+  width: 250px;
+  text-indent: 10px;
+  font-family: 'pretendard';
+  border: solid 1px rgb(53,122,251);
+}
+
+.profileDiv button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 25px;
+  width: 120px;
+  border-radius: 25px;
+  background-color: rgb(53,122,251);
+  font-weight: normal;
+  color: #ffffff;
+  font-family: 'pretendard';
+}
+
+.backgroundDiv table {
+  /* font-family: inherit;   */
+  width: 400px;
+  background-color: white;
+  /* border-radius: 30px; */
+  word-break:normal;
+  font-family: 'pretendard';
+  
+}
+
+.backgroundDiv table thead {
+  background-color: rgb(53, 122, 251);
+  color: white;
+  text-align: center;
+}
+
+.backgroundDiv table th {
+  text-align: left;
+  padding-left: 28px;
+  height: 30px;
+}
+
+.backgroundDiv table td {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.backgroundDiv table td input {
+  width: 350px;
+  border-radius: 30px;
+  height: 30px;
+  text-align: left;
+  padding-left: 15px;
+  border: 2px solid #a5a5a5;
+  word-break:normal;
+  font-family: 'pretendard';
+}
+
+.backgroundDiv table td select {
+  width: 370px;
+  border-radius: 30px;
+  height: 35px;
+  border: 2px solid #a5a5a5;
+  text-align: left;
+  padding-left: 15px;
+  word-break:normal;
+  font-family: 'pretendard';
+}
+
+.backgroundDiv table td button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 35px;
+  width: 370px;
+  border-radius: 25px;
+  background-color: rgb(53, 122, 251);
+  color: white;
+  border: none;
+  font-weight: bold;
+  word-break:normal;
+  font-family: 'pretendard';
+}
+
+.backgroundDiv span {
+  padding-left: 5px;
+  /* justify-content: center;
+  align-items: center;
+  display: flex; */
+  word-break:normal;
+  font-family: 'pretendard';
+}
+
+.memberImageDiv{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.memberImage{
+  margin-top: 5px;
+  width: 150px;
+  height: 150px;    
+}
+
+.memberImageButton{
+  color: rgb(53,122,251);
+  background: white;
+  border: 1px solid rgb(53,122,251);
+  border-radius: 0.25rem;
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: 'pretendard';
+}

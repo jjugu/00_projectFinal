@@ -1,0 +1,65 @@
+.title{
+  resize: none;
+  word-break:break-all;
+  font-size:12px;
+  border-color: rgb(196, 233, 255);
+  border-width: 1px;
+  background-color: rgb(196, 233, 255);
+}
+.content{
+  font-size:12px;
+  border-color: rgb(196, 233, 255);
+  border-width: 3px;
+  background-color: rgb(196, 233, 255);
+  resize: none;
+}
+
+.btn{
+  margin-left: 3px;
+  margin-top: 3px;
+  background: rgb(167, 218, 248);
+  cursor:pointer;
+  border:0px;
+  border-radius:10px;
+  font-size: 15px;
+}
+
+.btn2{
+  margin-left: 665px;
+  background: rgb(167, 218, 248);
+  cursor:pointer;
+  border:0px;
+  border-radius:10px;
+  font-size: 15px;
+}
+
+div{ 
+  word-break:breck-all;
+  }
+.commentContent{
+  resize: none;
+  background: rgb(196, 233, 255);
+  word-break:break-all;
+  word-wrap: break-word;
+
+}
+
+.commentbtn{
+  background: rgb(196, 233, 255);
+  cursor:pointer;
+  border:0px;
+  border-radius:10px;
+  font-size: 15px;
+}
+
+.commentbtn2{
+  background: rgb(167, 218, 248);
+  cursor:pointer;
+  border:0px;
+  border-radius:10px;
+  font-size: 15px;
+
+}
+.g{
+  background: rgb(196, 233, 255);
+}

@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "pretendard";
+    src: url(../../fonts/Pretendard/Pretendard-Regular.woff);
+}
+
+.NavbarDiv {
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    word-break:normal;
+    font-family: 'pretendard';
+}
+
+.NavlistUl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 800px;
+    list-style:none;
+    padding-left:0px;    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.NavlistUl li {
+    min-width: 170px;
+    height: auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;    
+    color: black;
+}
+
+a:focus, a:hover {
+    text-decoration: none;
+    color: rgb(53,122,251);
+    font-weight: bold;
+}
+
+.link {
+    /* color: #F1EDE4; */
+    color: rgb(0, 0, 0);
+    text-decoration-line: none;
+  }

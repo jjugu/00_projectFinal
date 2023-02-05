@@ -1,0 +1,27 @@
+.title{
+  font-size: 20px;
+  width:794px;
+  height:30px;
+  font-size:12px;
+  border-color: rgb(196, 233, 255);
+  border-width: 1px;
+  background-color: rgb(196, 233, 255);
+}
+.content{
+  font-size:12px;
+  border-color: rgb(196, 233, 255);
+  border-width: 3px;
+  background-color: rgb(196, 233, 255);
+  
+}
+
+.btn{
+  margin-left: 327px;
+  margin-right: 327px;
+  margin-top: 3px;
+  background: rgb(196, 233, 255);
+  cursor:pointer;
+border:0px;
+  border-radius:10px;
+  font-size: 15px;
+}

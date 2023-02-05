@@ -1,0 +1,14 @@
+.comment{
+  background-color: rgb(196, 233, 255);
+  word-break:break-all;
+  word-wrap: break-word;
+  max-width: 800px;
+}
+
+.btn{
+  background-color: rgb(167, 218, 248);
+  cursor:pointer;
+  border:0px;
+  border-radius:10px;
+  font-size: 15px;
+}

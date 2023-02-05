@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'MonoplexKR-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-kr@1.0/MonoplexKR-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.wrap {
+  font-family: 'MonoplexKR-Regular';
+}
+
+.NavBox {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 110px;
+  font-size: 22px;
+  color: white;
+  background-color: rgba(2, 2, 2, 0);
+  
+  }
+
+.menuBox {
+  width: 175px;
+  height: 70px;
+  margin-left: 10px;
+  margin-top: 65px;
+  text-align: center;
+  color: white;
+}
+
+.link {
+  /* color: #F1EDE4; */
+  color: rgb(0, 0, 0);
+  text-decoration-line: none;
+}

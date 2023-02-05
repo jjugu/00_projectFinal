@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "pretendard";
+    src: url(../../fonts/Pretendard/Pretendard-Regular.woff);
+}
+
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    font-family: 'pretendard';
+}
+
+
+.loginModalDiv{    
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; /*수평 정렬*/
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: solid 1px rgb(53,122,251);;
+    border-radius: 25px;    
+}
+
+.loginModalDiv input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 250px;
+    border-radius: 25px;
+    text-indent: 10px;
+}
+
+.loginModalDiv button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 60px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: normal;
+    font-family: 'pretendard';
+}
+
+.loginModalDiv select {
+    width: 100px; 
+    padding: .8em .5em; 
+    border: 1px solid #999;
+    font-family: 'pretendard';
+    border-radius: 0px; 
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+    }
+
